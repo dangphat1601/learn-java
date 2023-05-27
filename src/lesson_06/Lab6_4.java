@@ -16,9 +16,6 @@ public class Lab6_4 {
         String method = splitMethod[0];
         String domain = splitDomain[splitDomain.length-1];
 
-        // System.out.println(method);
-        // System.out.println(domain);
-
         // Check method http or https
         if (method.contains("s")) {
             System.out.println("This is method: " + method);
