@@ -1,8 +1,10 @@
 package lesson_05;
 
+import java.util.Arrays;
+
 public class StringLearning {
     public static void main(String[] args) {
-        String myName1 = "Phat"; // Litenal declaration
+        /*String myName1 = "Phat"; // Litenal declaration
         String myName2 = "Phat";
         String myName3 = new String("Phat"); // Via String object
 
@@ -31,9 +33,48 @@ public class StringLearning {
         }
 
         // Replacement | Immutable
-        String badWordContainer = " bad, very bad, sth else, bad ";
+        String badWordContainer = "   bad, very bad, sth else, bad ";
         String filteredStr = badWordContainer.replace("bad", "b**");
         System.out.println(badWordContainer);
         System.out.println(filteredStr);
+
+        // Trim
+        System.out.println(badWordContainer);
+        System.out.println(badWordContainer.trim());
+*/
+        // Substring, indexOf, split
+        String url = "https://google.com@";
+        /*System.out.println(url.length());
+        System.out.println(url.indexOf("o"));
+        System.out.println(url.indexOf("com"));
+        System.out.println(url.indexOf("https_"));
+        System.out.println(url.indexOf("@"));
+
+        System.out.println(url.substring(0, 3));
+        System.out.println(url.substring(2));*/
+
+       // String[] splitStr = url.split("://");
+        String[] splitStr = url.split("");
+        System.out.println(Arrays.toString(splitStr));
+
+        // Regex | Regular Expression
+        String myCookingTimes = "  105 mins    ";
+        // TODO: Pattern and Matcher
+
+        String cookingTimeNumberStr = myCookingTimes.replaceAll("[^0-9]","");
+        System.out.println(cookingTimeNumberStr); // chữ số
+
+        //System.out.println(Integer.valueOf(cookingTimeNumberStr)); // con số
+        int cookingTime = Integer.valueOf(cookingTimeNumberStr);
+
+        System.out.println("Cooking time is: " + (cookingTime + 1));
+
+        // Concaternation
+        String s1 = "Hello, ";
+        String s2 = "Phat";
+        System.out.println(s1.concat(s2));
+        System.out.println((s1 + s2));
+
+        // StringBuilder
     }
 }
