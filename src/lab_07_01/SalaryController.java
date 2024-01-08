@@ -1,4 +1,5 @@
-package lesson_7_1;
+package lab_07_01;
+
 import java.util.List;
 public class SalaryController {
     protected int getTotalSalary(List<Employee> employeeList){

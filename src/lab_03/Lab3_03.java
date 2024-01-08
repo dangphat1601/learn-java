@@ -1,9 +1,8 @@
-package lesson_03;
+package lab_03;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
-public class Lab5 {
+public class Lab3_03 {
     /*   LAB 3.5
        ===Sort an integer array from min to max===
        Input: {12, 34, 1, 16, 28}

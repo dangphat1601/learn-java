@@ -1,6 +1,6 @@
-package lesson_06;
+package lab_06;
 
-public class Lab6_3 {
+public class Lab6_03 {
     public static void main(String[] args) {
 
         /* LAB 6.3

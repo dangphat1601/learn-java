@@ -1,4 +1,5 @@
-package lesson_7_1;
+package lab_07_01;
+
 public class FullTimeEmployee extends Employee {
     private static int salary = 50000;
 

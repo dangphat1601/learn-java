@@ -1,8 +1,8 @@
-package lesson_06;
+package lab_06;
 
 import java.util.Scanner;
 
-public class Lab6_2 {
+public class Lab6_02 {
     public static void main(String[] args) {
 
         /* LAB 6.2

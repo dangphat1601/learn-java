@@ -1,6 +1,6 @@
-package lesson_03;
+package lab_03;
 
-public class Lab4 {
+public class Lab3_02 {
     /*   LAB 3.2
      === Finding maximum value/minimum value from an integer array ===
             int[] intArr = {1, 2, 3, 4, 5};

@@ -1,8 +1,8 @@
-package lesson_02;
+package lab_02;
 
 import java.util.Scanner;
 
-public class Lab2 {
+public class Lab2_02 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

@@ -1,6 +1,6 @@
-package lesson_03;
+package lab_03;
 
-public class Lab3 {
+public class Lab3_01 {
 
     /*   LAB 3.1
      === Count how many odd, even number(s) in an integer array ===

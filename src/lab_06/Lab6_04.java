@@ -1,8 +1,6 @@
-package lesson_06;
+package lab_06;
 
-import java.util.Arrays;
-
-public class Lab6_4 {
+public class Lab6_04 {
     public static void main(String[] args) {
 
         /* LAB 6.4

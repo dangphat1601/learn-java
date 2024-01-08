@@ -1,4 +1,4 @@
-package lesson_7_1;
+package lab_07_01;
 public class Employee {
     private String name;
 

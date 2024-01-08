@@ -1,8 +1,6 @@
-package lesson_03;
+package lab_03;
 
-import static java.io.ObjectInputFilter.merge;
-
-public class Lab6 {
+public class Lab3_04 {
     /*   LAB 3.6
      ==== Merge 2 SORTED integer array into one SORTED array ====
            Array 01: {1, 12, 16, 28, 34}

@@ -1,11 +1,8 @@
-package lesson_02;
+package lab_02;
 
-import org.w3c.dom.ls.LSOutput;
-
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
-public class Lab1 {
+public class Lab2_01 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Please enter Height(m): ");
